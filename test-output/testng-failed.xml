@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="ecommerce.Project.Test_Case4">
+        <methods>
+          <include name="launch"/>
+          <include name="quit"/>
+          <include name="Edit_user_profile"/>
+        </methods>
+      </class> <!-- ecommerce.Project.Test_Case4 -->
+      <class name="ecommerce.Project.Test_Case7">
+        <methods>
+          <include name="launch"/>
+          <include name="quit"/>
+          <include name="Product_Details_Check"/>
+        </methods>
+      </class> <!-- ecommerce.Project.Test_Case7 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

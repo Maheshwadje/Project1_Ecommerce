@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	<parameter name="browser" value="chrome"></parameter>
+    <classes>
+		<class name="ecommerce.Project.Test_Case1"/>
+		<class name="ecommerce.Project.Test_Case2"/>
+		<class name="ecommerce.Project.Test_Case3"/>
+		<class name="ecommerce.Project.Test_Case4"/>
+		<class name="ecommerce.Project.Test_Case5"/>
+		<class name="ecommerce.Project.Test_Case5"/>
+		<class name="ecommerce.Project.Test_Case6"/>
+		<class name="ecommerce.Project.Test_Case7"/>
+		<class name="ecommerce.Project.Test_Case8"/>
+        <class name="ecommerce.Project.Test_Case9"/>
+        <class name="ecommerce.Project.Test_Case10"/>
+        <class name="ecommerce.Project.Test_Case11"/>
+        <class name="ecommerce.Project.Test_Case12"/>
+        <class name="ecommerce.Project.Test_Case13"/>
+        <class name="ecommerce.Project.Test_Case14"/>
+        <class name="ecommerce.Project.Test_Case15"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
